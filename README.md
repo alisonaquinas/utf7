@@ -1,6 +1,10 @@
 # safe-utf7
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main.svg?style=svg&circle-token=fa60d6a91ce305636eb12699959802c014807772)](https://dl.circleci.com/status-badge/redirect/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main.svg?style=svg&circle-token=fa60d6a91ce305636eb12699959802c014807772)](https://dl.circleci.com/status-badge/redirect/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main) [![npm](./img/npm.svg =20x)](https://www.npmjs.com/package/safe-utf7)
+
+``` bash
+npm i safe-utf7
+```
 
 This is a fork of [utf7](https://www.npmjs.com/package/utf7) I (Alison) made to resolve some vulnrablities that were found in the origonal package. I've kept the changes minimal and update the CircleCI confiuration to point to my own instance. What follows are the origonal notes from Konstantin Käfer
 
