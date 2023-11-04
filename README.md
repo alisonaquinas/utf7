@@ -1,6 +1,6 @@
 # safe-utf7
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main.svg?style=svg&circle-token=fa60d6a91ce305636eb12699959802c014807772)](https://dl.circleci.com/status-badge/redirect/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main) [![npm](./img/npm.svg =20x)](https://www.npmjs.com/package/safe-utf7)
+[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main.svg?style=svg&circle-token=fa60d6a91ce305636eb12699959802c014807772)](https://dl.circleci.com/status-badge/redirect/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main) [<img src="https://raw.githubusercontent.com/alisonaquinas/node-safe-utf7/main/img/npm.svg" width="55">](https://www.npmjs.com/package/safe-utf7)
 
 ``` bash
 npm i safe-utf7
