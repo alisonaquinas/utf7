@@ -2,7 +2,7 @@
     "name": "utf7",
     "version": "1.0.3",
     "description": "Converts text to and from UTF-7 (RFC 2152 and IMAP)",
-    "author": "Konstantin Käfer <kkaefer@gmail.com>",
+    "author": "Konstantin Käfer <kkaefer@gmail.com>,  Alison Aquinas <alison@aquinas.pro>",
     "licenses": [
         {
             "type": "BSD",

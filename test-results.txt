@@ -1,0 +1,76 @@
+
+> utf7@1.0.3 test
+> tape test/*.js
+
+TAP version 13
+# test conversion from utf8 to utf7
+ok 1 should be equal
+ok 2 should be equal
+ok 3 should be equal
+ok 4 should be equal
+ok 5 should be equal
+ok 6 should be equal
+ok 7 should be equal
+ok 8 should be equal
+ok 9 should be equal
+# test conversion from utf7 to utf8
+ok 10 should be equal
+ok 11 should be equal
+ok 12 should be equal
+ok 13 should be equal
+ok 14 should be equal
+ok 15 should be equal
+ok 16 should be equal
+ok 17 should be equal
+ok 18 should be equal
+# test conversion from utf8 to utf7
+ok 19 should be equal
+ok 20 should be equal
+ok 21 should be equal
+ok 22 should be equal
+ok 23 should be equal
+ok 24 should be equal
+ok 25 should be equal
+ok 26 should be equal
+ok 27 should be equal
+ok 28 should be equal
+ok 29 should be equal
+ok 30 should be equal
+ok 31 should be equal
+ok 32 should be equal
+ok 33 should be equal
+ok 34 should be equal
+ok 35 should be equal
+ok 36 should be equal
+ok 37 should be equal
+ok 38 should be equal
+# test conversion from utf7 to utf8
+ok 39 should be equal
+ok 40 should be equal
+ok 41 should be equal
+ok 42 should be equal
+ok 43 should be equal
+ok 44 should be equal
+ok 45 should be equal
+ok 46 should be equal
+ok 47 should be equal
+ok 48 should be equal
+ok 49 should be equal
+ok 50 should be equal
+ok 51 should be equal
+ok 52 should be equal
+ok 53 should be equal
+ok 54 should be equal
+ok 55 should be equal
+ok 56 should be equal
+ok 57 should be equal
+ok 58 should be equal
+ok 59 should be equal
+ok 60 should be equal
+
+1..60
+# tests 60
+# pass  60
+
+# ok
+
