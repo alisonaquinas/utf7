@@ -1,10 +1,6 @@
 const test = require('tape');
 const utf7 = require('..').imap;
 
-test.createStream({ objectMode: true }).on('data', function (row) {
-  console.log(JSON.stringify(row)) // for example
-});
-
 test('test conversion from utf8 to utf7', function(assert) {
   assert.plan(9);
 
