@@ -19,7 +19,8 @@
     },
     "devDependencies": {
         "tape": "~4.6.0",
-        "tap-xunit": "^2.4.1"
+        "tap-xunit": "^2.4.1",
+        "npmrc": "^1.1.1"
     },
     "scripts": {
         "test": "tape test/*.js | tap-xunit > test-results.xml"
