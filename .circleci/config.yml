@@ -19,9 +19,9 @@ jobs:
           command: "npm install"
       - run:
           name: "Run Tests"
-          command: "npm run test > test-results.txt"
+          command: "npm run test"
       - store_test_results:
-          path: test-results.txt
+          path: test-results.xml
 
 
 
