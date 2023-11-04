@@ -36,5 +36,6 @@ var decoded = utf7.decode(encoded);
 assert.equal('"你好" heißt "Hallo"', decoded);
 ```
 
-### Maintaince Note
+## Maintaince Note
 
+I (Alison) am planning to maintain this repositoy, please see the [contibuting](CONTRIBUTING.md) guide if you have any issues or ideas.
