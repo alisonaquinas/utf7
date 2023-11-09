@@ -1,17 +1,18 @@
 {
     "name": "safe-utf7",
+    "homepage": "https://github.com/alisonaquinas/utf7",
     "version": "1.0.4",
     "description": "Converts text to and from UTF-7 (RFC 2152 and IMAP)",
     "author": "Konstantin Käfer <kkaefer@gmail.com>,  Alison Aquinas <alison@aquinas.pro>",
     "licenses": [
         {
             "type": "BSD",
-            "url": "https://raw.githubusercontent.com/alisonaquinas/node-safe-utf7/main/LICENSE.txt"
+            "url": "https://github.com/alisonaquinas/utf7/main/LICENSE.txt"
         }
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/alisonaquinas/node-safe-utf7"
+        "url": "https://github.com/alisonaquinas/utf7"
     },
     "main": "./utf7",
     "dependencies": {

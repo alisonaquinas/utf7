@@ -11,6 +11,10 @@ if (semver.gte(process.version || '6.0.0', '6.0.0')) {
     }
 }
 
+/**
+ * Encode String to UTF7
+ * @param str String object to encode
+ */
 function encode(str) {
     var b = allocateAsciiBuffer(str.length * 2);
     for (var i = 0, bi = 0; i < str.length; i++) {
@@ -27,16 +31,10 @@ function encode(str) {
     return b.toString('base64').replace(/=+$/, '');
 }
 
-if (semver.gte(process.version || '6.0.0', '6.0.0')) {
-    function allocateBase64Buffer(str) {
-        return Buffer.from(str, 'base64');
-    }
-} else {
-    function allocateBase64Buffer(str) {
-        return new Buffer(str, 'base64');
-    }
-}
-
+/**
+ * Encode String to UTF7
+ * @param {string} str String object to encode
+ */
 function decode(str) {
     var b = allocateBase64Buffer(str);
     var r = [];
@@ -47,15 +45,23 @@ function decode(str) {
     return r.join('');
 }
 
-// Escape RegEx from http://simonwillison.net/2006/Jan/20/escape/
+//
+/**
+ * Escape reserved RegEx strings
+ * @description from http://simonwillison.net/2006/Jan/20/escape/
+ * @param {string} chars 
+ * @returns {string} new string with escaped characters
+ */
 function escape(chars) {
     return chars.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
 }
 
-// Character classes defined by RFC 2152.
+/**
+ * Character classes defined by RFC 2152.
+ */
 var setD = "A-Za-z0-9" + escape("'(),-./:?");
-var setO = escape("!\"#$%&*;<=>@[]^_'{|}");
-var setW = escape(" \r\n\t");
+const setO = escape('!"#$%&*;<=>@[]^_\'{|}')
+const setW = escape(' \r\n\t')
 
 // Stores compiled regexes for various replacement pattern.
 var regexes = {};
@@ -63,9 +69,15 @@ var regexes = {};
 // This regex matches all characters
 var regexAll = new RegExp("[\u0000-\uFFFF]+", 'g');
 
+// pre-declare imap version
 exports.imap = {};
 
-// RFC 2152 UTF-7 encoding.
+/**
+ * Encodes string to UTF-7, see RFC 2152
+ * @param {String} str String to encode
+ * @param {String} mask (optional) Characters to encode, defaults to RFC 2152 Set D
+ * @returns {string} encoded string
+ */
 exports.encode = function(str, mask) {
     // Generate a RegExp object from the string of mask characters.
     if (!mask) {
