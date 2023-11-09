@@ -15,9 +15,7 @@
         "url": "https://github.com/alisonaquinas/utf7"
     },
     "main": "./utf7",
-    "dependencies": {
-        "semver": "^5.7.2"
-    },
+    "dependencies": { },
     "devDependencies": {
         "tape": "~4.6.0",
         "tap-xunit": "^2.4.1",
@@ -27,7 +25,7 @@
         "test": "tape test/*.js | tap-xunit > test-results.xml"
     },
     "engines": {
-        "node": ">=10.0.0"
+        "node": ">=6.0.0"
     },
     "keywords": [
         "imap",

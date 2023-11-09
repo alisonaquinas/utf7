@@ -1,14 +1,21 @@
 var Buffer = require('buffer').Buffer;
-var semver = require('semver');
 
-if (semver.gte(process.version || '6.0.0', '6.0.0')) {
-    function allocateAsciiBuffer(length) {
-        return Buffer.alloc(length, 'ascii');
-    }
-} else {
-    function allocateAsciiBuffer(length) {
-        return new Buffer(length, 'ascii');
-    }
+/**
+ * Creates an Ascii Buffer
+ * @param {Number} length Size of the requested buffer
+ * @returns {Buffer} new buffer
+ */
+function allocateAsciiBuffer(length) {
+    return Buffer.alloc(length, 'ascii');
+}
+
+/**
+ * Creates a base64 buffer
+ * @param {Number} length Size of the requested buffer
+ * @returns {Buffer} new buffer
+ */
+function allocateBase64Buffer(str) {
+    return Buffer.from(str, encoding='base64');
 }
 
 /**
@@ -37,6 +44,7 @@ function encode(str) {
  */
 function decode(str) {
     var b = allocateBase64Buffer(str);
+
     var r = [];
     for (var i = 0; i < b.length;) {
         // Calculate charcode from two adjacent bytes.
