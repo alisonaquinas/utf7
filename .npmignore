@@ -1,6 +1,7 @@
 ﻿node_modules
 package-lock.json
+test-results.txt
 test-results.xml
 .circleci
-.test
-.npmrc
+test
+img
