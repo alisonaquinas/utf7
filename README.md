@@ -1,6 +1,7 @@
 # safe-utf7
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main.svg?style=svg&circle-token=fa60d6a91ce305636eb12699959802c014807772)](https://dl.circleci.com/status-badge/redirect/circleci/GZzGYZt7pLMQZxxgpDPkWT/KWrgfyAaoiJc6dJtRJ9DUe/tree/main) [<img src="https://raw.githubusercontent.com/alisonaquinas/node-safe-utf7/main/img/npm.svg" width="55">](https://www.npmjs.com/package/safe-utf7)
+[![CircleCI](https://img.shields.io/circleci/build/github/alisonaquinas/utf7)](https://app.circleci.com/pipelines/github/alisonaquinas/utf7)
+[![npm](https://img.shields.io/npm/dw/safe-utf7)](https://www.npmjs.com/package/safe-utf7)
 
 ``` bash
 npm i safe-utf7
@@ -43,3 +44,30 @@ assert.equal('"你好" heißt "Hallo"', decoded);
 ## Maintaince Note
 
 I (Alison) am planning to maintain this repositoy, please see the [contibuting](CONTRIBUTING.md) guide if you have any issues or ideas.
+
+
+## License
+
+[Original code](https://github.com/kkaefer/utf7) licensed under MIT by Konstantin Käfer
+
+```
+Copyright (c) 2010-2011 Konstantin Käfer
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+```
